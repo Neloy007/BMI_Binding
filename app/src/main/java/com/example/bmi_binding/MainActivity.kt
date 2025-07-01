@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
             try {
                 //convert input into number to calculate
                 val weight =weightText.toDouble()
-                val height = weightText.toDouble()
+                val height = heightText.toDouble()/100
+
 
                 val bmi = weight/(height*height)
 
